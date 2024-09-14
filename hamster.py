@@ -487,4 +487,4 @@ def auto_upgrade_pph_earn(token, harga_maksimal):
         for upgrade in available_upgrades:
             if upgrade['id'] in upgrade_list and upgrade['isAvailable'] and not upgrade['isExpired']:
                 # Periksa apakah upgrade sedang dalam cooldown dan apakah cooldown sudah berakhir
-                if upgrade['id'] in coold
+                if upgrade['id'] in coold:
